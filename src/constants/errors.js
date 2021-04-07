@@ -1,0 +1,1 @@
+export const ALREADY_EXISTS_ERROR = new Error('ALREADY_EXISTS')

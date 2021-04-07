@@ -1,0 +1,28 @@
+{
+  "name": "respect-bot",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "postinstall": "npm run start",
+    "dev": "nodemon  -r esm ./src/backend/index.js",
+    "start": "node  -r esm ./src/backend/index.js",
+    "docker-up": "docker-compose up --build",
+    "docker-down": "docker-compose down"
+  },
+  "author": "Ektaros",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.0",
+    "node-vk-bot-api": "^3.3.7",
+    "nodemon": "^2.0.4",
+    "pg": "^8.3.3",
+    "redis": "^3.0.2",
+    "sequelize": "^6.3.4",
+    "sequelize-cli": "^6.2.0"
+  }
+}
